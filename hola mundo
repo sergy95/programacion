@@ -1,0 +1,15 @@
+// holamundo.cpp : Defines the entry point for the console application.
+//sergio dennis nuñez
+//librerias
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() // cuerpo principal. void indica que no devuelve valor principal
+{
+	cout<<"hola mundo "<<endl;
+	cout<<"me gusta el majao /n"<<"y el pique a o macho";
+	getch();
+}
