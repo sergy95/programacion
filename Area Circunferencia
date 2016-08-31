@@ -1,0 +1,17 @@
+// areacircunferencia.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main() {
+	float radio,area,Pi=3.141516;
+	cout<<"ingresar radio: ";
+	cin>>radio;
+	area=3.141516*radio*radio;
+	cout<<"el area de la circunferencia es: "<<area;
+	getch();
+}
